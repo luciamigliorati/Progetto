@@ -13,18 +13,14 @@ La prima parte del codice ha lo scopo di estrarre i dati necessari da *pollution
 La seconda parte consiste nell’analisi vera e propria dei dati, realizzata confrontando:
 
 * le diverse stazioni in uno stato tramite la media giornaliera di ogni inquinante
-
 * i diversi inquinanti mediati giornalmente su tutti gli stati
-
 * i diversi stati tramite i valori dei quattro inquinanti mediati giornalmente sulle diverse stazioni di ciascuno stato
 
 e riportando i relativi:
 
 * andamenti temporali
-
 * spettri di potenza
- 
-* coefficienti di correlazione
+ * coefficienti di correlazione
 
 La terza parte riguarda l’andamento sul lungo periodo. Sono state realizzate delle maschere che filtrano le frequenze basse. La differenza tra i dati filtrati e non mette in evidenza il rumore, che è stato caratterizzato con un fit.
 
