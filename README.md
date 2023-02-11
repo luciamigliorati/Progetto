@@ -20,7 +20,7 @@ e riportando i relativi:
 
 * andamenti temporali
 * spettri di potenza
- * coefficienti di correlazione
+* coefficienti di correlazione
 
 La terza parte riguarda l’andamento sul lungo periodo. Sono state realizzate delle maschere che filtrano le frequenze basse. La differenza tra i dati filtrati e non mette in evidenza il rumore, che è stato caratterizzato con un fit.
 
