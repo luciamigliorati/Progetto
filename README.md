@@ -1,23 +1,31 @@
 # Progetto
-*Introduzione
+* Introduzione
 * Descrizione script 
 *	Istruzioni per l’esecuzione
 * Setup
-##**Introduzione**
+## **Introduzione**
 La consegna del progetto è consultabile al file Inquinanti_USA_2000-2002_202208.pdf.
 Il progetto concerne l’analisi degli inquinanti biossido di azoto (NO2), ozono (O3), anidride solforosa (SO2) e monossido di carbonio (CO) rilevati nell’arco dei 3 anni 2000-2002 nei vari stati della metropoli atlantica sulla East Coast degli Stati Uniti, in particolare New York (NY), Distretto di Columbia (DC), New Jersey (NJ), Massachusetts (MA) e Pennsylvania (PA).
-La prima parte del codice ha lo scopo di estrarre i dati necessari da pollution_us_2000_2002.csv e creare un csv per ognuno dei 5 stati in modo da rendere più agevole la manipolazione dei dati. 
+La prima parte del codice ha lo scopo di estrarre i dati necessari da *pollution_us_2000_2002.csv* e creare un csv per ognuno dei 5 stati in modo da rendere più agevole la manipolazione dei dati. 
 La seconda parte consiste nell’analisi vera e propria dei dati, realizzata confrontando:
-*le diverse stazioni in uno stato tramite la media giornaliera di ogni inquinante
-*i diversi inquinanti mediati giornalmente su tutti gli stati
-*i diversi stati tramite i valori dei quattro inquinanti mediati giornalmente sulle diverse stazioni di ciascuno stato
+* le diverse stazioni in uno stato tramite la media giornaliera di ogni inquinante
+
+* i diversi inquinanti mediati giornalmente su tutti gli stati
+
+* i diversi stati tramite i valori dei quattro inquinanti mediati giornalmente sulle diverse stazioni di ciascuno stato
+
 e riportando i relativi:
-*andamenti temporali
-*spettri di potenza 
-*coefficienti di correlazione
+
+* andamenti temporali
+
+
+* spettri di potenza
+ 
+* coefficienti di correlazione
+
 La terza parte riguarda l’andamento sul lungo periodo. Sono state realizzate delle maschere che filtrano le frequenze basse. La differenza tra dati filtrati e non mette in evidenza il rumore che è stato caratterizzato con un fit.
 La quarta e ultima parte mostra alcuni dei risultati con delle mappe animate.
-##**Descrizione degli script**
+## **Descrizione degli script**
 * ***scaricaDati.py** legge il csv dei dati e genera un csv per ogni stato riportando stato, contea, città, numero della stazione di monitoraggio, data e un solo valore medio giornaliero di NO2, O3, SO2, CO.
 * **mdl.py** è il modulo in cui è definita la classe “Stazione” con i relativi metodi che implementa una stazione di monitoraggio degli inquinanti.
 * **fnzn.py** è il modulo con tutte le varie funzioni richiamate in analsiDati.py.
