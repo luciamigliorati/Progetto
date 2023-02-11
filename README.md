@@ -35,7 +35,7 @@ La quarta e ultima parte mostra alcuni dei risultati con delle mappe animate.
 * **scaricaDati.py** legge il csv dei dati e genera un csv per ogni stato riportando stato, contea, città, numero della stazione di monitoraggio, data e un solo valore medio giornaliero di NO2, O3, SO2, CO.
 
 * **mdl.py** è il modulo in cui è definita la classe “Stazione” che implementa una stazione di monitoraggio degli inquinanti con i relativi metodi.
-*
+
 * **fnzn.py** è il modulo con tutte le varie funzioni richiamate in analsiDati.py.
 
 * **analisiDati.py** contiene tutto il codice di analisi, andamento lungo periodo e mappe descritto nell’introduzione. Importa mdl.py e fnzn.py.
